@@ -1,0 +1,19 @@
+- get a, b & c as inputs from the user.
+- if a == 0  then x1 = x2 -= -c/b. else, if 4*(a)(c) < b^2 then
+    x1 = (-b + sqrt(b^2 - 4*a*c))/(2*a)
+    x2 = (-b + sqrt(b^2 - 4*a*c))/(2*a)
+    else
+        print "there is no possible solution"
+        exit
+    print x1, x2
+
+    end
+
+- get three variables (X, Y, Z) from the user
+- compare the variables using if statements
+    if X < Y and Z, output X
+    else if Y < X and Z, output Y
+    else if Z < X and Y, output Z
+    else if X == Y == Z, output "all numbers are the same"
+    else output "two numbers are the same"
+    end
