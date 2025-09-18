@@ -29,3 +29,8 @@ num2_i = int(num2)
 num2_as_txt = str(num2)
 
 print(num, num_f, num2, num2_i, num2_as_txt)
+
+# using input function. Note the input function and always return a string
+
+birthYear = input("input your year of birth: \n")
+print("your age is:", 2025 - int(birthYear))
